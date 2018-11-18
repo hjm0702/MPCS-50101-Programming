@@ -1,0 +1,13 @@
+Total: (9.5/10)
+
+1. (1/1)
+
+2. (1.75/2)
+  Good! Remember to wrap ALL your code in functions. There shouldn't be any floating global variables or function calls.
+
+3. (2/2)
+
+4. (2/2)
+
+5. (2.75/3)
+  Great job overall! However, there is a lot of code and nested `if` statements underneath your `if __name__ == '__main__' statements. Another class (maybe TaskManager?) might be helpful in reducing some of the complexity there.

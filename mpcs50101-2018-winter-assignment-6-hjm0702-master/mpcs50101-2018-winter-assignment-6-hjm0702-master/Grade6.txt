@@ -1,0 +1,40 @@
+Assignment 6
+
+1) .25/2
+Okay, as you pointed out this isn't quite there. You should use an Initialization
+function for each class which creates the attributes that can be passed into and
+out of a class. This will help your classes interact with one another.
+
+2) .75/2
+You've got a lot of the right idea here, but the add, subtract, lt (etc) functions
+should override the addition, subraction... (etc) functions. In order to do this,
+they should be part of the class definition and use the overriding syntax we discussed
+in class.
+
+3) .5/2
+The bones of the problem are here, but it crashes if you ask for another question.
+You should also:
+- Import your fractions class from the 2nd problem
+- Override the __eq__ function so you can test for equality - right now you can't
+determine if they are equal easily
+- Modularize the heck out of your game - one function to generate a problem, another
+to test...etc.
+
+4) .5/1 => 1/1
+This works correctly, but your code should all (but like two lines) be within
+your countdown timer class. Try writing an init function that gets and validates user
+input and a method that does the countdown.
+
+5) .25/1 => 1/1
+Right now this doesn't run as you are missing the import statement. You also need
+to generate random points for the plot - look in to the random module.
+
+6) 1/2
+First of all, the Task class needs an init function that gets all of the attributes
+sorted. You should consider how you will generate a unique ID as it is a non-trivial
+problem. You also should consider how your will save and access tasks and in what format.
+Finally, it would probably be a good idea to have a separate Task Manager class that
+organizes the Tasks.
+
+
+TOTAL: 3.25/10 => 3.875/10

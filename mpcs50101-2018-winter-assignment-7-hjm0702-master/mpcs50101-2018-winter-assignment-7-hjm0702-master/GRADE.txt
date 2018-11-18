@@ -1,0 +1,25 @@
+Total: (10.5/12)
+
+1. (1/1)
+
+2. (0.75/1)
+  - Selecting the next best move in Tic Tac Toe is O(1), because there will always be a constant number of moves.
+  - Compiling a telephone or address book from a list of names/numbers can be improved on O(n^2) by using sorting algorithms such as merge or quick sort, which would be O(n log n).
+  - Determining if a number is odd or even would be O(1), because there are a constant number of choices
+
+3. (1/1)
+
+4. (1/1)
+
+5. (1.75/2)
+  Your `gcd_euclid` function looks good, but try to narrow down your base cases! The `gcd_repeated_substraction` shouldn't require creating a list variable, and any variables should be local to each function. 
+
+6. (1/1)
+
+7. (2/2)
+
+8. (2/3)
+  Program should present the top 20 articles in both search and top headline mode.
+  The `news()` function is much too complex, which makes it difficult to debug. One more obvious improvement would be to create a separate function for creating the URL string. In this function, you could add constants to the base API url, any endpoints, and the API key.
+  There's also some repetition of code involving printing the JSON responses -- this would be another place that having a separate function to do this would be useful.
+  Also, be careful with spacing and indentation; with the `raw_input` function calls, the spacing is a bit all over the place.

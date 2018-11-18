@@ -1,0 +1,24 @@
+Assignment 8:
+
+1) 2/2
+Good!
+
+2) 1.75/2 => 2/2
+Good!
+You should import your Stack class into this file.
+
+3) 1/1
+Good!
+
+4) 1.75/2 => 2/2
+Good! Again, you should import your Deque class into here.
+
+5) 1/1
+Good!
+
+6) 2/2
+Really nice work! :)
+It should take forever to run...
+
+
+TOTAL: 9.5/10 => 9.75/10
