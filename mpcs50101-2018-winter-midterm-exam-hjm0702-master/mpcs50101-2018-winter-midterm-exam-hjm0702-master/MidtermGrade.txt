@@ -1,0 +1,46 @@
+Midterm Grade
+
+1) 5/5
+Nice work!
+
+2) 1/5
+It would actually print something like:
+1
+1 1
+1 1 1
+1 1 1 1
+
+3) 3/5
+Good!
+g)
+Linus
+Sally
+Charlie
+h)
+5
+4
+3
+2
+1
+0
+:)
+
+4) 9.5/10
+Really good! You just have an integer division error in your volume function.
+Try changing 4/3 to 4/3.0. :)
+
+5) 9/10
+Very good!
+I would say that it might make more sense to get user input within a function
+and also you should format the dollars to have two decimal places.
+
+6) 6.5/15
+You are on the right track and the psuedocode you wrote should work out!
+Good job!
+Just as a note, to open the file use:
+f = f.open('3_letter_words.txt')
+Also, make sure you use a separate words module (i.e. word.py as a separate file)
+and then import
+
+
+TOTAL: 34.0/50

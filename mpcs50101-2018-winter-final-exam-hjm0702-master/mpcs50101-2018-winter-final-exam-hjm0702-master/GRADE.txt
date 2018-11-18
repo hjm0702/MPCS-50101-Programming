@@ -1,0 +1,31 @@
+Total: (10.05/13)
+
+1. (1/1)
+
+2. (.1/1)
+  I think you may have misread the question. This question is asking you to provide the worst-case run time of EACH of the following snippets. You are correct that E would have the slowest run time, though.
+
+3. (.2/.25)
+  Good, but you also need to show exactly what each line will print.
+
+4. (1.5/1.5)
+  A. Insertion sort can be O(n) if the list is partially sorted.
+
+5. (1.5/1.5)
+  Great! Full credit for linear time, though you shouldn't need the while loop.
+
+6. (1.25/2)
+  B. IndexError: pop from empty list
+  C. Good, but solution is not as efficient as it could be due to creating two Stack objects. You should ideally be able to use one.
+
+7. (1.5/1.5)
+
+8. (1.75/2)
+  In your __gt__ and __lt__ functions, you can just return the evaluated comparator statements, e.g., `return self.radius > other.radius` instead of returning True or False directly.
+  `getdata()` method doesn't seem necessary. You could instead define getters or call the attributes directly on the class instance.
+
+9. (1/2)
+  So close! Program is returning [] only because you wrapped False in quotations. Line 97 should be `if a.search(i) == False:`.
+  Also, instead of creating an entirely new list, you should be removing items from the original list.
+
+10. (.25/.25)
