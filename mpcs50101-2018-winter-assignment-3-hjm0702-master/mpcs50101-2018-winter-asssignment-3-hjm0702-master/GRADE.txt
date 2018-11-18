@@ -1,0 +1,45 @@
+REGRADE: (9.25/12)
+
+Great! Received 2.75 out of 2.75 points possible.
+
+--------------------------------------------------------------------------------
+
+Total: (6.5/12)
+
+  Make sure to enclose the main driver logic of your program within a `main` function.
+  Please also make sure to include any files that are necessary for your programs to run.
+
+1. (1/1)
+  Nice work!
+
+2. (0.5/1)
+  This program should utilize a `while` loop so that your program will continue to ask for user input if the input is invalid.
+  Output to user should use string formatting.
+  I was able to break your program by triggering an `EOFError` (i.e., hitting Ctrl + D).
+
+3. (1.25/2)
+  Program breaks if the message contains lowercase characters, due to the way you're defining the range of possible letters on line 1.
+  The letter `Z` with a key shift of 1 is encrypted as `B`, instead of `A`.
+
+4. (0.5/1)
+  Function should open the filename passed in as an argument. You have hardcoded `common_words_100.txt` in your function.
+  Please include the `.txt` for us to test.
+  File name is incorrect, currently printing the file object.
+  Words should be sorted in alphabetical order, however capital letters are out of order (see: `I`).
+
+5. (1/2)
+  The idea for this problem was to loop from 1-26 to try all potential keys, checking each decrypted word against the `common_words` file.
+  Looks like you were on the right track, and you did print the correct message, but there is no evidence that your function helped produce that answer. 
+  There is also no evidence of using the `common_words` file.
+
+6. (0.75/1)
+  You should not be hardcoding the answers, but instead should call functions you have written in order to print the answers. 
+  Otherwise, it's not immediately obvious to me if your programs are working.
+  Please include the `points.txt` file.
+
+7. (1/2)
+  The function that uses iteration should not use `min` or `max` functions.
+
+8. (0.5/2)
+  There is a syntax error on line 30 involving the `range` function that breaks your program.
+  Problem asks you to print the top 20 words, not the entire dictionary of words!

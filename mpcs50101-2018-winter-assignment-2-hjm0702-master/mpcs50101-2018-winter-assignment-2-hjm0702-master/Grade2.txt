@@ -1,0 +1,39 @@
+Assignment 2:
+
+Problem 1: .5/1
+Works, but there are some issues:
+- .25 for not using a function to convert temperature
+- .25 for not handling incorrect user input
+
+Problem 2: .5/1
+- .25 for not handling user input
+- .25 for not using a function
+
+Problem 3: 1/2
+So technically, this will work but the code is very inefficient. You want to
+avoid nesting for loops overmuch as it increases the run time exponentially.
+- .5 for stylistic problems
+- .5 for not using a function, handling spaces
+
+Problem 4: .75/1
+- .25 for printing rather than returning a value
+
+Problem 5: .25/1
+- .25 for not handling user input
+- .25 for not using a function
+- .25 because you shouldn't be using modulus - how could you continue the function
+in the same vein?
+
+Problem 6: .25/1
+- .25 for not using a function
+- .5 because it doesn't handle spaces, punctuation, or capitalization
+
+Problem 7: 1/1
+Good!
+
+Problem 8: .75/2
+- 1 because it crashes if you try to say you want to play again twice
+- .25 because of stylistic concerns: try to avoid using so many nested if
+statements!
+
+Total: 5/10

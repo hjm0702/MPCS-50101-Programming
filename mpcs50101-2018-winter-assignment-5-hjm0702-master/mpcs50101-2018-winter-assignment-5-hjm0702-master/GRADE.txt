@@ -1,0 +1,26 @@
+REGRADE: (8.125/10)
+
+4. Updated to reflect a misunderstanding of Scrabble rules.
+
+Received 1.875 out of 1.875 possible regrade points.
+
+--------------------------------------------------------------------------------
+
+Total: (6.25/10)
+
+1. (2/3)
+  The idea here is to isolate any words sorting/scoring functionality to the `words` module, while other functionality should be put in a `main()` function (or other functions if needed) within the `problem1` file.
+  `sorting` function does more than the name indicates. This function should be broken up into several functions, perhaps for reading/writing to a file, scoring the words, and scoring the words.
+  `tile_score` should be a constant within the `main()` function, instead of a global variable.
+
+2. (1.75/2)
+  `re` should only be imported once, at the top of the file.
+
+3. (2/2)
+
+4. (0.5/3)
+  Looks like you were on the right track, but your program prints only a list with each letter of the user input.
+  The regex on line 30 is quite complicated, is there a way it could be simplified? Perhaps by searching for only letters instead of a specific pattern?
+  There's a mix of script code, function definitions, and commented out code in this file the makes your program a bit difficult to read.
+  `tile_score` dictionary definition is floating in the middle of the file -- should be defined as constant in a `main()` function.
+ 

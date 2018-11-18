@@ -1,0 +1,60 @@
+Assignment 4:
+
+- Must use docstrings!
+
+1) 0/2 => 2/2
+You should have included the unit testing for this problem. If you are having trouble,
+consider making a function for converting temperature to test and another for getting user
+input.
+
+2) 0/1
+REGRADE: While this is a little bit closer, you still aren't returning anything with
+the recursive call and there are some syntactic errors that prevent this from running.
+
+You have some of the right ideas here, but part of what you are missing is that you need
+to return the recursive call to the function.
+Also, you should consider that if a == b at the end of the recursion, then it actually
+is a power.
+
+3) .5/1 (RECURSIVE) => 1/1
+Good work! You find all the hidden subdirectories which is great, although
+the print out ends up a little off.
+This is the output for the test in the assignment:
+home
+   file1.txt
+   file2.txt
+ photos /
+   .DS_Store
+ favorites /
+   beach1.png
+   hawaii.png
+     photo1.jpg
+     photo2.jpg
+You also want to validate that there is an argument passed via command line.
+
+4) 1/1
+Good work!
+
+5) 1.25/2 => 2/2
+Great! A couple of small issues:
+1) Your mean function falls prey to integer division - the value you return gets
+rounded down. Since you use the same function in your variance, you have the same
+issue there.
+2) The mode should return no mode if there isn't one most common value.
+3) You should write this such that it can be imported directly into the test file and
+validate the argument input. This could be done by putting it within the main loop
+and then validating.
+
+6) .75/1 => 1/1
+Nice work! Especially with handling the mode.
+My only comment would be that you might want to hardcode some test cases rather
+than asking for user input.
+
+
+7) 1.75/2 => 2/2
+Great work!
+You definitely want to make this handle uppercase letters, however.
+That could be achieved by using .lower() and .isalpha().
+
+
+TOTAL: 5.25/10 => 7.125/10
